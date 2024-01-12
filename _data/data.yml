@@ -3,147 +3,168 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: false # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: false # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Josef Al-Shorji
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Josef Al-Shorji
+  tagline: Full-Stack Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: josef.alshorji@gmail.com
-    phone: (076) 134 96 64 
-    timezone: Europe/Stockholm Timezone
-    citizenship:
-    website: 
-    linkedin: jalshorji
-    xing: 
-    github: 
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://jalshorji.github.io/online-cv/assets/cv.pdf
+  # Sidebar links
+  email: josef.alshorji@gmail.com
+  phone: (076) 134 96 64
+  timezone: Europe/Stockholm Timezone
+  citizenship:
+  website:
+  linkedin: jalshorji
+  xing:
+  github:
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: https://jalshorji.github.io/online-cv/assets/cv.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
 
-        - idiom: Swedish
-          level: Professional
+      - idiom: Swedish
+        level: Professional
 
-        - idiom: Syriac
-          level: Native 
+      - idiom: Syriac
+        level: Native
 
-        - idiom: Arabic
-          level: fluent
+      - idiom: Arabic
+        level: fluent
 
-    interests:
-      title: Interests
-      info:
-        - item: Music
-          link:
-        
-        - item: Playing instruments
-          link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #     - item: Music
+  #       link:
 
-        - item: Cooking
-          link:
+  #     - item: Playing instruments
+  #       link:
+
+  #     - item: Cooking
+  #       link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Senior developer with experience in delivering complex systems. My main focus is fullstack Java development
-      and Scrum Master, where I have worked with distributed systems in an
-      architecture with micro-services and rest APIs, frameworks such as 
-      Angular and Hibernate in a CI/CD environment with tools such as git, 
-      Jenkins, and Jira. I am fully comfortable working agile and has 
-      experience with Test Driven Development as well as taking on the role 
-      of the team's scrum master. My ambition is for projects to deliver 
-      value to the customer, but also for the team to continuously improve 
-      their productivity and quality.
+  title: Career Profile
+  summary: |
+    I am a seasoned senior developer with a robust background in successfully delivering intricate systems. 
+    My expertise lies in full-stack Java development and Scrum Master roles, 
+    where I have adeptly managed distributed systems within a microservices architecture. 
+    I have hands-on experience with frameworks like Angular and Hibernate, 
+    operating in a CI/CD environment with proficiency in tools such as Docker, Git, Maven, Jenkins, and Jira.<br/><br/>
+    My agile proficiency extends to Test Driven Development, 
+    and I have effectively assumed the pivotal role of the team's Scrum Master. 
+    My professional aspirations revolve around ensuring project deliverables meet and exceed client expectations, 
+    while fostering a culture of continual improvement within the team. 
+    I am dedicated to enhancing productivity and maintaining the highest standards of quality.
 
 education:
-    title: Education
-    info:
-      - degree: Certified Kubernetes Administrator (CKA)
-        university: The Linux Foundation and the Cloud Native Computing Foundation (CNCF)
-        time: 2023 - ongoing
-        details: 
-      - degree: AWS Certified Developer - Associate
-        university: Amazon Web Services (AWS)
-        time: 2023
-        details: 
-      - degree: Certified ScrumMaster
-        university: Scrum Alliance
-        time: 2018
-        details: 
-      - degree: Professional Scrum Master I
-        university: Scrum.org
-        time: 2018
-        details: 
-      - degree: Cisco Certified Network Associate CCNA2
-        time: 2017
-        details: Routing and Switching Essentials
-      - degree: Cisco Certified Network Associate CCNA1
-        time: 2016
-        details: Introduction to Networks
-      - degree: Bachelor of Science - BS, Computer Engineering
-        university: KTH Royal Institute of Technology
-        time: 2015 - 2018
-        details: 
+  title: Education
+  info:
+    - degree: Certified Kubernetes Administrator (CKA)
+      university: The Linux Foundation and the Cloud Native Computing Foundation (CNCF)
+      time: 2023 - ongoing
+      details:
+    - degree: AWS Certified Developer - Associate
+      university: Amazon Web Services (AWS)
+      time: 2023
+      details:
+    - degree: Certified ScrumMaster
+      university: Scrum Alliance
+      time: 2018
+      details:
+    - degree: Professional Scrum Master I
+      university: Scrum.org
+      time: 2018
+      details:
+    - degree: Cisco Certified Network Associate CCNA2
+      time: 2017
+      details: Routing and Switching Essentials
+    - degree: Cisco Certified Network Associate CCNA1
+      time: 2016
+      details: Introduction to Networks
+    - degree: Bachelor of Science - BS, Computer Engineering
+      university: KTH Royal Institute of Technology
+      time: 2015 - 2018
+      details:
 
 experiences:
-    title: Experiences
-    info:
-      - role: Consultant
-        time: 2022 - Present
-        company: IP Solutions
-        details: |
-          I have been working on in-house projects. The focus has been to improve my knowledge in cloud.
-      - role: Team Lead / Scrum Master
-        time: 2019 - 2022
-        company: CSAM Health
-        details: |
-          Detailed Achievements:
-            - Learn much more about Scrum while learning / improving the team.
-            - Experience how it is to lead a distributed team, since half of the team is in Cebu.
-            - Learned about PRINCE2 project management methodology, since I was team leader, I needed some knowledge about PRINCE2.
-            - Got a Scrum Master certification one more time.
-      - role: Fullstack developer
-        time: 2019 - 2022
-        company: CSAM Health
-        details: |
-          I was always curious about trying the role Scrum Master, so when i got the opportunity, I accepted the challenge.
-          I already had a Scrum Master certificate, but it was different to actually work with it.
+  title: Experiences
+  info:
+    - role: Full-stack developer at Tillväxtverket
+      time: Jun 2023 - Present
+      company: IP Solutions
+      skills: |
+        Technology Stack: RODA - Spring Boot - Kubernetes - Java - Scala
+      details: |
+        Detailed Achievements:
+          - We initiated a project to create a Proof of Concept (PoC), employing a tech stack that included Spring Boot, Kubernetes, Java, Maven, and Docker.
+          - I am also assisting the team in maintaining the existing system, which is implemented in both Java and Scala.
+    - role: Full-stack developer
+      time: Mar 2023 - Jun 2023
+      company: IP Solutions
+      skills: |
+        Technology Stack: Elastic Stack (ELK) - Fluentd - Kibana - Kubernetes - Docker
+      details: |
+        Detailed Achievements:
+          - I participated in an in-house project aimed at creating a Proof of Concept (PoC) for a customer, focusing on log analysis utilizing the EFK stack (Elasticsearch, Fluent, and Kibana). Throughout this project, I gained knowledge of Kubernetes.
+    - role: Consultant
+      time: 2022 - Present
+      company: IP Solutions
+    - role: Team Lead / Scrum Master
+      time: Dec 2019 - Dec 2022
+      company: CSAM Health
+      details: |
+        Detailed Achievements:
+          - Enhanced understanding of Scrum methodologies while actively participating in team learning and improvement initiatives.
+          - Gained valuable experience in leading a distributed team, managing coordination challenges with half of the team located in Cebu.
+          - Acquired knowledge of the PRINCE2 project management methodology, essential for effective leadership as a team leader.
+          - Attained Scrum Master certification once again, further validating expertise and commitment to agile project management.
+    - role: Full-stack developer
+      time: Jun 2019 - Dec 2022
+      company: CSAM Health
+      details: |
+        I had always been fascinated by the role of a Scrum Master, so when the opportunity presented itself, I eagerly accepted the challenge. Despite already holding a Scrum Master certificate, putting it into practice provided a distinct and valuable experience.
 
-          Detailed Achievements:
-            - Gained my Java knowledge
-            - Learned much more about Angular, since I had most knowledge about it in the team. 
-            - Worked on a very complex system with many moving parts for the first time. For that complex system we had a small team, so I got multiple responsibilities.
-            - Worked with DevOps related issues. We dockerized the whole application, and used that in our local environment. 
-      - role: Engineering Trainee as a developer
-        time: 2018 - 2019
-        company: ASSA ABLOY
-        details: |
-          Detailed Achievements:
-            - Worked on a cloud based system, and got introduced to AWS for first time. 
-            - Learned about / experienced Domain Driven design.
-            - Learned about / experienced Test Driven Development.
-            - Worked with micro services
-            - Learned about consumer driven contract testing.
-      - role: Consultant
-        time: 2018 - 2019
-        company: YABS AB
-        details: |
-          Detailed Achievements:
-            - Became a certified Scrum Master
+        Detailed Achievements:
+          - Deepened my Java knowledge.
+          - Expanded my expertise in Angular, taking on a more significant role in the team due to my familiarity with the technology.
+          - Engaged in working on a highly intricate system with numerous interconnected components for the first time. Despite the complexity, being part of a small team meant I assumed multiple responsibilities.
+          - Tackled DevOps-related challenges, including the complete Dockerization of the application, and successfully implementing it in our local environment.
+    - role: Engineering Trainee as a developer
+      time: Aug 2018 - May 2019
+      company: ASSA ABLOY
+      details: |
+        Detailed Achievements:
+          - Contributed to the development of a cloud-based system and gained initial exposure to AWS (Amazon Web Services).
+          - Delved into the principles of Domain-Driven Design, acquiring practical experience in its application.
+          - Embraced Test-Driven Development (TDD), gaining hands-on experience and insights into its implementation.
+          - Actively worked with microservices, gaining a deep understanding of their architecture and deployment.
+          - Explored and implemented consumer-driven contract testing, enhancing the reliability and stability of the system.
+    - role: Consultant
+      time: Aug 2018 - May 2019
+      company: YABS AB
+      details: |
+        Detailed Achievements:
+          - Achieved certification as a Scrum Master, demonstrating proficiency and expertise in Scrum methodologies.
+    - role: Developer
+      time: Mar 2017 - Aug 2018
+      company: Ericsson
+      details: |
+        Detailed Achievements:
+          - The project provided me with the opportunity to use data from Maven to get an overview of all internal tools written in Java, presented in an Angular web application. The application displays a dashboard with all the tools, their versions, and the latest commit messages, allowing users to see what has been updated. To support the Angular application, we wrote a Java server that interprets data from Maven.
 # projects:
 #     title: Projects
 #     intro: >
@@ -255,26 +276,26 @@ experiences:
 
 #       - name: Scrum
 #         level: 90%
-        
+
 #       - name: Kanban
 #         level: 55%
-        
+
 #       - name: Test Driven Development
 #         level: 90%
 
 #       - name: Domain Driven Development
 #         level: 50%
-        
+
 #     # Tools
 #       - name: GIT
 #         level: 85%
 
 #       - name: Jenkins
 #         level: 85%
-  
+
 #     # Cloud
 #       - name: AWS
 #         level: 65%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="" target="_blank" rel="nofollow">jalshorji</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="" target="_blank" rel="nofollow">jalshorji</a>
