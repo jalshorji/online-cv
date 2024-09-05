@@ -59,16 +59,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I am a seasoned senior developer with a robust background in successfully delivering intricate systems. 
-    My expertise lies in full-stack Java development and Scrum Master roles, 
-    where I have adeptly managed distributed systems within a microservices architecture. 
-    I have hands-on experience with frameworks like Angular and Hibernate, 
-    operating in a CI/CD environment with proficiency in tools such as Docker, Git, Maven, Jenkins, and Jira.<br/><br/>
-    My agile proficiency extends to Test Driven Development, 
-    and I have effectively assumed the pivotal role of the team's Scrum Master. 
-    My professional aspirations revolve around ensuring project deliverables meet and exceed client expectations, 
-    while fostering a culture of continual improvement within the team. 
-    I am dedicated to enhancing productivity and maintaining the highest standards of quality.
+    I am an experienced Full-Stack Developer with a demonstrated history of working in both consulting and in-house 
+    development roles. My expertise spans across managing complex distributed systems, particularly within microservices 
+    architectures. With proficiency in Java, Angular, Hibernate, and the entire CI/CD pipeline, I excel in environments 
+    requiring containerization tools like Docker and orchestration systems like Kubernetes.
+
+    In addition to my technical skills, I have consistently contributed as a Scrum Master, leading teams in agile development,
+    ensuring the timely and quality delivery of products, and promoting a culture of continuous improvement. My certifications 
+    in Scrum and AWS further solidify my capabilities in both software engineering and team leadership.
+
+    I thrive on solving intricate problems, ensuring that client expectations are not only met but exceeded, and driving 
+    efficiency across all phases of the software development lifecycle.
 
 education:
   title: Education
@@ -121,7 +122,7 @@ experiences:
         Detailed Achievements:
           - I participated in an in-house project aimed at creating a Proof of Concept (PoC) for a customer, focusing on log analysis utilizing the EFK stack (Elasticsearch, Fluent, and Kibana). Throughout this project, I gained knowledge of Kubernetes.
     - role: Consultant
-      time: 2022 - Present
+      time: Aug 2022 - Present
       company: IP Solutions
     - role: Team Lead / Scrum Master
       time: Dec 2019 - Dec 2022
